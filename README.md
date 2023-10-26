@@ -18,14 +18,14 @@
 
 ### Screenshot 📷
 
-![](./screenshot/Screenshot%202023-10-08%20at%2019-43-47%20Frontend%20Mentor%20NFT%20preview%20card%20component.png)
+![](./screenshot/Screenshot%202023-10-26%20at%2013-37-24%20Frontend%20Mentor%203-column%20preview%20card%20component.png)
 
 
 
 ### Links 🔗
 
-- Solution URL: [page]()
-- Live Site URL: [page]()
+- Solution URL: [page](https://www.frontendmentor.io/solutions/build-with-grid-and-flexbox-QXQvC3KqPS)
+- Live Site URL: [page](https://sivin-wi.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
