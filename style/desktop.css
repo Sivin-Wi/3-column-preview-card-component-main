@@ -1,0 +1,193 @@
+@media only screen and (min-width:1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 0.9375rem;
+    }
+
+    @font-face {
+        font-family: 'Lexend Deca', 'Big Shoulders Display';
+        src: url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'), url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+    }
+
+    :root {
+        --bgColor-row-1: hsl(31, 77%, 52%);
+        --bgColor-row-2: hsl(184, 100%, 22%);
+        --bgColor-row-3: hsl(179, 100%, 13%);
+        --para-color: hsla(0, 0%, 100%, 0.75);
+        --button-heading-color: hsl(0, 0%, 95%);
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section > .containers {
+        height: 50%;
+        width: 50%;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    /* 1 */
+
+    .section > .containers > .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bgColor-row-1);
+    }
+
+    .container1 > .subContainer1 {
+        width: 70%;
+        height: 82%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .container1 > .subContainer1 > .heading > h1 {
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-weight: 700;
+        color: var(--button-heading-color);
+    }
+
+    .container1 > .subContainer1 > .para > p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 1.6;
+        color: var(--para-color);
+    }
+
+
+
+    .container1 > .subContainer1 > .button > button {
+        padding: 0.8em 2em;
+        border-radius: 18px;
+        background-color: var(--button-heading-color);
+        color: var(--bgColor-row-1);
+        border: none;
+    }
+
+    .container1 > .subContainer1 > .button > button:hover {
+        background-color: transparent;
+        border: 1px solid var(--button-heading-color);
+        color: var(--button-heading-color);
+        cursor: pointer;
+
+    }
+
+    /* 2 */
+
+    .section > .containers > .container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bgColor-row-2);
+    }
+
+    .container2 > .subContainer2 {
+        width: 70%;
+        height: 82%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .container2 > .subContainer2 > .heading > h1 {
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-weight: 700;
+        color: var(--button-heading-color);
+    }
+
+    .container2 > .subContainer2 > .para > p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 1.6;
+        color: var(--para-color);
+    }
+
+
+
+    .container2 > .subContainer2 > .button > button {
+        padding: 0.8em 2em;
+        border-radius: 18px;
+        color: var(--bgColor-row-2);
+        border: none;
+    }
+
+    .container2 > .subContainer2 > .button > button:hover {
+        background-color: transparent;
+        border: 1px solid var(--button-heading-color);
+        color: var(--button-heading-color);
+        cursor: pointer;
+
+    }
+
+
+    /* 3 */
+
+    .section > .containers > .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bgColor-row-3);
+    }
+
+    .container3 > .subContainer3 {
+        width: 70%;
+        height: 82%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .container3 > .subContainer3 > .heading > h1 {
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-weight: 700;
+        color: var(--button-heading-color);
+    }
+
+    .container3 > .subContainer3 > .para > p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 1.6;
+        color: var(--para-color);
+    }
+
+
+    .container3 > .subContainer3 > .button > button {
+        padding: 0.8em 2em;
+        border-radius: 18px;
+        color: var(--bgColor-row-3);
+        border: none;
+    }
+
+    .container3 > .subContainer3 > .button > button:hover {
+        background-color: transparent;
+        border: 1px solid var(--button-heading-color);
+        color: var(--button-heading-color);
+        cursor: pointer;
+    }
+
+}
